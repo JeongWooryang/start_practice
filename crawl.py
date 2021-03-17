@@ -10,7 +10,7 @@ def search_selenium(search_name, search_path, search_limit):
 
     image_count = len(browser.find_elements_by_tag_name("img"))
 
-   print("로드된 이미지 개수 : ", image_count)
+   # print("로드된 이미지 개수 : ", image_count)
 
     browser.implicitly_wait(2)
 
